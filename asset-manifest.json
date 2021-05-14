@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/contact-list/static/css/main.dbda9fea.chunk.css",
-    "main.js": "/contact-list/static/js/main.3bad6e30.chunk.js",
-    "main.js.map": "/contact-list/static/js/main.3bad6e30.chunk.js.map",
+    "main.js": "/contact-list/static/js/main.9dbd8b54.chunk.js",
+    "main.js.map": "/contact-list/static/js/main.9dbd8b54.chunk.js.map",
     "runtime-main.js": "/contact-list/static/js/runtime-main.4fba2530.js",
     "runtime-main.js.map": "/contact-list/static/js/runtime-main.4fba2530.js.map",
-    "static/js/2.d832e0cc.chunk.js": "/contact-list/static/js/2.d832e0cc.chunk.js",
-    "static/js/2.d832e0cc.chunk.js.map": "/contact-list/static/js/2.d832e0cc.chunk.js.map",
+    "static/js/2.fd0bc50b.chunk.js": "/contact-list/static/js/2.fd0bc50b.chunk.js",
+    "static/js/2.fd0bc50b.chunk.js.map": "/contact-list/static/js/2.fd0bc50b.chunk.js.map",
     "index.html": "/contact-list/index.html",
     "static/css/main.dbda9fea.chunk.css.map": "/contact-list/static/css/main.dbda9fea.chunk.css.map",
-    "static/js/2.d832e0cc.chunk.js.LICENSE.txt": "/contact-list/static/js/2.d832e0cc.chunk.js.LICENSE.txt",
+    "static/js/2.fd0bc50b.chunk.js.LICENSE.txt": "/contact-list/static/js/2.fd0bc50b.chunk.js.LICENSE.txt",
     "static/media/Bitmap.9f11df3c.png": "/contact-list/static/media/Bitmap.9f11df3c.png",
     "static/media/app.scss": "/contact-list/static/media/NunitoSans-Bold.e81fd3b8.eot"
   },
   "entrypoints": [
     "static/js/runtime-main.4fba2530.js",
-    "static/js/2.d832e0cc.chunk.js",
+    "static/js/2.fd0bc50b.chunk.js",
     "static/css/main.dbda9fea.chunk.css",
-    "static/js/main.3bad6e30.chunk.js"
+    "static/js/main.9dbd8b54.chunk.js"
   ]
 }
