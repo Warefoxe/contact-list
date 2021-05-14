@@ -1,6 +1,7 @@
 import React from "react";
 import { useSelector } from "react-redux";
-import { Redirect, Route, Router, Switch } from "react-router";
+import { Redirect, Route, Switch } from "react-router";
+import { BrowserRouter as Router } from 'react-router-dom';
 import Home from "./pages/Home";
 import Login from "./pages/Login";
 
