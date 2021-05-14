@@ -1,0 +1,59 @@
+.modal {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background-color: rgb(255, 255, 255);
+    padding: 110px 0 0 0;
+    z-index: 10;
+    &__block {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        width: 300px;
+    }
+    &__title {
+        text-align: center;
+        font-size: 32px;
+        line-height: 44px;
+        font-weight: 900;
+    }
+    &__input {
+        margin-top: 22px;
+        padding: 0 10px;
+        width: 320px;
+        height: 48px;
+        font-size: 18px;
+        line-height: 21px;
+        font-family: Helvetica;
+        font-weight: 400;
+        border-radius: 5px;
+    }
+    &__button {
+        margin-top: 22px;
+        width: 320px;
+        height: 48px;
+        background: #06c668;
+        border: 2px solid #06c668;
+        box-sizing: border-box;
+        border-radius: 6px;
+        font-weight: 700;
+        font-size: 20px;
+        text-align: center;
+        color: #ffffff;
+        cursor: pointer;
+        &-close {
+            background: #ffffff;
+            border: 2px solid #D30000;
+            color: #D30000;
+        }
+    }
+    &-item {
+        &__close {
+            top: 0;
+            position: absolute;
+            right: 0;
+            cursor: pointer;
+        }
+    }
+}

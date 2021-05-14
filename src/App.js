@@ -1,23 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { useSelector } from "react-redux";
+import { Redirect, Route } from "react-router";
+import Home from "./pages/Home";
+import Login from "./pages/Login";
+
+function ProtectedRoute({ component: Component, ...restOfProps }) {
+  const joined = useSelector(({ login }) => login.joined);
+
+  return (
+    <Route
+      {...restOfProps}
+      render={(props) =>
+        joined ? <Component {...props} /> : <Redirect to="/login" />
+      }
+    />
+  );
+}
 
 function App() {
+  // const joined = useSelector(({ login }) => login.joined);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Route exact path="/login" component={Login} />
+      <ProtectedRoute exact path="/" component={Home} />
+      {/* {!joined ? <Login /> : <Home />} */}
     </div>
   );
 }
