@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/contact-list/static/css/main.dbda9fea.chunk.css",
+    "main.js": "/contact-list/static/js/main.0b3cbeaf.chunk.js",
+    "main.js.map": "/contact-list/static/js/main.0b3cbeaf.chunk.js.map",
+    "runtime-main.js": "/contact-list/static/js/runtime-main.4fba2530.js",
+    "runtime-main.js.map": "/contact-list/static/js/runtime-main.4fba2530.js.map",
+    "static/js/2.cd67b7a7.chunk.js": "/contact-list/static/js/2.cd67b7a7.chunk.js",
+    "static/js/2.cd67b7a7.chunk.js.map": "/contact-list/static/js/2.cd67b7a7.chunk.js.map",
+    "index.html": "/contact-list/index.html",
+    "static/css/main.dbda9fea.chunk.css.map": "/contact-list/static/css/main.dbda9fea.chunk.css.map",
+    "static/js/2.cd67b7a7.chunk.js.LICENSE.txt": "/contact-list/static/js/2.cd67b7a7.chunk.js.LICENSE.txt",
+    "static/media/Bitmap.9f11df3c.png": "/contact-list/static/media/Bitmap.9f11df3c.png",
+    "static/media/app.scss": "/contact-list/static/media/NunitoSans-Bold.e81fd3b8.eot"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4fba2530.js",
+    "static/js/2.cd67b7a7.chunk.js",
+    "static/css/main.dbda9fea.chunk.css",
+    "static/js/main.0b3cbeaf.chunk.js"
+  ]
+}
