@@ -1,6 +1,6 @@
 import React from "react";
 import { useSelector } from "react-redux";
-import { Redirect, Route } from "react-router";
+import { Redirect, Route, Router, Switch } from "react-router";
 import Home from "./pages/Home";
 import Login from "./pages/Login";
 
@@ -22,8 +22,12 @@ function App() {
 
   return (
     <div>
-      <Route exact path="/login" component={Login} />
-      <ProtectedRoute exact path="/" component={Home} />
+      <Router basename={process.env.PUBLIC_URL}>
+        <Switch>
+          <Route exact path="/login" component={Login} />
+          <ProtectedRoute exact path="/" component={Home} />
+        </Switch>
+      </Router>
       {/* {!joined ? <Login /> : <Home />} */}
     </div>
   );
