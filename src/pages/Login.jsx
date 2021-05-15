@@ -1,17 +1,21 @@
 import React from "react";
 import { useDispatch } from "react-redux";
+import { useHistory } from "react-router";
 import Button from "../components/Button";
 import { onLogin } from "../redux/actions/login";
 
 const Login = () => {
   const dispatch = useDispatch();
+  let history = useHistory();
+
   const [name, setName] = React.useState("");
 
   const handleName = (e) => setName(e.target.value);
 
   const addLogin = () => {
     dispatch(onLogin(name));
-    window.location.pathname = "/";
+    history.push("/");
+    // window.location.pathname = "/";
   };
 
   return (

@@ -1,7 +1,7 @@
 import React from "react";
 import { useSelector } from "react-redux";
 import { Redirect, Route, Switch } from "react-router";
-import { BrowserRouter as Router } from 'react-router-dom';
+import { HashRouter as Router } from "react-router-dom";
 import Home from "./pages/Home";
 import Login from "./pages/Login";
 
@@ -23,7 +23,7 @@ function App() {
 
   return (
     <div>
-      <Router basename={process.env.PUBLIC_URL}>
+      <Router>
         <Switch>
           <Route exact path="/login" component={Login} />
           <ProtectedRoute exact path="/" component={Home} />

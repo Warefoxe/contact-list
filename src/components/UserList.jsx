@@ -20,7 +20,9 @@ const UserList = ({ openModal, loginName }) => {
           <div className="container">
             <div className="header__content">
               <div className="header__name">Hello, {loginName}</div>
-              <div className="header__logout" onClick={logout}>Logout</div>
+              <div className="header__logout" onClick={logout}>
+                Logout
+              </div>
             </div>
           </div>
         </div>

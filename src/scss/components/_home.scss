@@ -7,11 +7,17 @@
     &__name {
         font-size: 32px;
         font-weight: 900;
+        @media only screen and (max-width: 768px) {
+            font-size: 20px;
+        }
     }
     &__logout {
         font-size: 32px;
         font-weight: 900;
         cursor: pointer;
+        @media only screen and (max-width: 768px) {
+            font-size: 20px;
+        }
     }
 }
 
@@ -21,6 +27,13 @@
         width: 520px;
         display: flex;
         justify-content: space-between;
+        @media only screen and (max-width: 768px) {
+            margin-top: 25px;
+        }
+        @media only screen and (max-width: 650px) {
+            flex-direction: row;
+            width: 100%;
+        }
     }
     &__button {
         width: 240px;
@@ -34,6 +47,23 @@
         text-align: center;
         color: #ffffff;
         cursor: pointer;
+        @media only screen and (max-width: 768px) {
+            width: 222px;
+            height: 45px;
+            font-size: 15px;
+        }
+        @media only screen and (max-width: 500px) {
+            width: 200px;
+        }
+        @media only screen and (max-width: 460px) {
+            width: 180px;
+        }
+        @media only screen and (max-width: 410px) {
+            width: 150px;
+        }
+        @media only screen and (max-width: 340px) {
+            width: 135px;
+        }
     }
 }
 
@@ -43,6 +73,11 @@
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
+        @media only screen and (max-width: 695px) {
+            justify-content: center;
+            flex-direction: column;
+            align-content: center;
+        }
     }
     &-item {
         width: 300px;
